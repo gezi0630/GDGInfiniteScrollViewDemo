@@ -31,7 +31,7 @@
     //添加到当前view
     [self.view addSubview:scrollView];
     
-    
+    NSLog(@"----");
 }
 
 

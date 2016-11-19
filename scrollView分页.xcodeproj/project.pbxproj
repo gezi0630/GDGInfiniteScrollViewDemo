@@ -116,6 +116,7 @@
 				TargetAttributes = {
 					04A867851D254AC200542000 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SC6394MZ4D;
 					};
 				};
 			};
@@ -272,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SC6394MZ4D;
 				INFOPLIST_FILE = "scrollView分页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gezi.scrollView--";
@@ -283,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SC6394MZ4D;
 				INFOPLIST_FILE = "scrollView分页/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gezi.scrollView--";
@@ -309,6 +312,7 @@
 				04A8679F1D254AC200542000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

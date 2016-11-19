@@ -13,6 +13,7 @@
 		04A867941D254AC200542000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A867921D254AC200542000 /* Main.storyboard */; };
 		04A867961D254AC200542000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A867951D254AC200542000 /* Assets.xcassets */; };
 		04A867991D254AC200542000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A867971D254AC200542000 /* LaunchScreen.storyboard */; };
+		04A867A21D254D4600542000 /* GDGInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A867A11D254D4600542000 /* GDGInfiniteScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04A867951D254AC200542000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A867981D254AC200542000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A8679A1D254AC200542000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A867A01D254D4600542000 /* GDGInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDGInfiniteScrollView.h; sourceTree = "<group>"; };
+		04A867A11D254D4600542000 /* GDGInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDGInfiniteScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				04A8678D1D254AC200542000 /* AppDelegate.m */,
 				04A8678F1D254AC200542000 /* ViewController.h */,
 				04A867901D254AC200542000 /* ViewController.m */,
+				04A867A01D254D4600542000 /* GDGInfiniteScrollView.h */,
+				04A867A11D254D4600542000 /* GDGInfiniteScrollView.m */,
 				04A867921D254AC200542000 /* Main.storyboard */,
 				04A867951D254AC200542000 /* Assets.xcassets */,
 				04A867971D254AC200542000 /* LaunchScreen.storyboard */,
@@ -105,6 +110,7 @@
 		04A8677E1D254AC200542000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GDG;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = MAC;
 				TargetAttributes = {
@@ -149,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A867A21D254D4600542000 /* GDGInfiniteScrollView.m in Sources */,
 				04A867911D254AC200542000 /* ViewController.m in Sources */,
 				04A8678E1D254AC200542000 /* AppDelegate.m in Sources */,
 				04A8678B1D254AC200542000 /* main.m in Sources */,
